@@ -11,4 +11,4 @@ The primary plan is to utilize multiple CPU cores as much as possible and disreg
 Reproduction of the paper [Matrix Factorization for Recommender Systems](https://datajobs.com/data-science-repo/Recommender-Systems-%5BNetflix%5D.pdf). I implement from the paper equation (2), which is the pure matrix factorization with regularization(lambda=0.1), without biases or external information. I use momentum(p=0.9) to speed up stochastic gradient descent(lr=0.01). The algorithm seems to converge after 1 epoch of training(210 seconds).
 |            | Original Paper | Reproduced |
 |:----------:|:--------------:|:----------:|
-| **RMSE(k=50)** |      0.90      |    1.09    |
+| **RMSE(k=40)** |      0.91      |    1.08    |
