@@ -1,9 +1,10 @@
 <h1>Recsys Notebooks</h1>
 <p>A compilation of recommender system benchmarks.</p>
-<br><br>
+<br>
 <h2>Implementation Details</h2>
-<p>The primary plan is to utilize multiple CPU cores as much as possible and disregard the use of GPUs. Data preprocessing is done mostly with Pyspark when handling extremely large datasets. To minimize computation time, Numpy is preferred over PyTorch or Tensorflow, and is JIT compiled with Numba whenever possible.</p>
-<br><br>
+
+The primary plan is to utilize multiple CPU cores as much as possible and disregard the use of GPUs. Data preprocessing is done mostly with [Pyspark](https://spark.apache.org/docs/latest/api/python/) when handling extremely large datasets. To minimize computation time, Numpy is preferred over PyTorch or Tensorflow, and is JIT compiled with [Numba](http://numba.pydata.org/) whenever possible.
+<br>
 <h2>List of implementations</h2>
 <h3>1. Matrix Factorization</h3>
 
