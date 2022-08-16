@@ -1,0 +1,21 @@
+# ignore runtime byproducts
+**/__pycache__/**
+**/.ipynb_checkpoints/**
+
+# Netflix 100M dataset : ignore all but 'readme.md'
+data/netflix_100M/raw_data/**
+data/netflix_100M/processed_data/**
+!data/netflix_100M/raw_data/readme.md
+!data/netflix_100M/processed_data/readme.md
+
+# Movielens 1M dataset : ignore all but 'readme.md'
+data/movielens_1M/raw_data/**
+data/movielens_1M/processed_data/**
+!data/movielens_1M/raw_data/readme.md
+!data/movielens_1M/processed_data/readme.md
+
+# Lastfm 1B dataset : ignore all but 'readme.md'
+data/lastfm_1B/raw_data/**
+data/lastfm_1B/processed_data/**
+!data/lastfm_1B/raw_data/readme.md
+!data/lastfm_1B/processed_data/readme.md
